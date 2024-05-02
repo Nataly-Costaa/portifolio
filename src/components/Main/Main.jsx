@@ -4,6 +4,9 @@ import nataly_costa_cv from "../../assets/nataly_costa_cv.pdf";
 
 import * as S from "./main_style";
 import About from "./About/About";
+import Technologies from "./Technologies/Technologies";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 export default function Main() {
   const handleDownload = () => {
@@ -43,6 +46,12 @@ export default function Main() {
         </section>
 
         <About />
+
+        <Technologies />
+
+        <Projects />
+
+        <Contact />
     </S.Main>
   )
 }

@@ -3,6 +3,7 @@ import { Center } from "../Header/header_style";
 
 export const Main = styled.main` 
     background: linear-gradient(-45deg,#2d132a , #281d30, #2e0123 ,#320129);
+
     .main-page {
         background-size: 400% 400%;
         display: flex;
@@ -159,9 +160,8 @@ export const Main = styled.main`
     }
 
     @media (max-width: 480px) {
-        height: 200vh;
+        height: 820vh;
         flex-direction: column;
-        
 
         .main-page {
             flex-direction: inherit;

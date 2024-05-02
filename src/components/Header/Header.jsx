@@ -14,9 +14,9 @@ export default function Header() {
       <S.NavBar>
           <ul className={isOpen && "open"}>
             <li><a href="#about">About</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
